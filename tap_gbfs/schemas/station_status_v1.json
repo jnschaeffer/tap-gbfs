@@ -8,45 +8,45 @@
         },
         "num_bikes_available": {
             "description": "Number of vehicles of any type physically available for rental at the station.",
-            "type": "number",
+            "type": "integer",
             "minimum": 0
         },
         "num_bikes_disabled": {
             "description": "Number of disabled vehicles of any type at the station.",
-            "type": "number",
+            "type": "integer",
             "minimum": 0
         },
         "num_docks_available": {
             "description": "Number of functional docks physically at the station.",
-            "type": "number",
+            "type": "integer",
             "minimum": 0
         },
         "num_docks_disabled": {
             "description": "Number of empty but disabled docks at the station.",
-            "type": "number",
+            "type": "integer",
             "minimum": 0
         },
         "is_installed": {
             "description": "Is the station currently on the street?",
-            "type": "number",
+            "type": "integer",
             "minimum": 0,
             "maximum": 1
         },
         "is_renting": {
             "description": "Is the station currently renting vehicles?",
-            "type": "number",
+            "type": "integer",
             "minimum": 0,
             "maximum": 1
         },
         "is_returning": {
             "description": "Is the station accepting vehicle returns?",
-            "type": "number",
+            "type": "integer",
             "minimum": 0,
             "maximum": 1
         },
         "last_reported": {
             "description": "The last time this station reported its status to the operator's backend.",
-            "type": "number",
+            "type": "integer",
             "minimum": 1450155600
         }
     },

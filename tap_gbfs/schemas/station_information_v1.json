@@ -21,7 +21,7 @@
             "maximum": 90
         },
         "lon": {
-            "description": "The longitude fo the station.",
+            "description": "The longitude of the station.",
             "type": "number",
             "minimum": -180,
             "maximum": 180
@@ -44,7 +44,7 @@
         },
         "capacity": {
             "description": "Number of total docking points installed at this station, both available and unavailable.",
-            "type": "number",
+            "type": "integer",
             "minimum": 0
         }
     },
