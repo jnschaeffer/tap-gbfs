@@ -13,14 +13,13 @@ setup(
         # NB: Pin these to a more specific version for tap reliability
         "singer-python",
         "requests",
+        "gbfs-client>=0.1.8,<0.2.0",
     ],
     entry_points="""
     [console_scripts]
     tap-gbfs=tap_gbfs:main
     """,
     packages=["tap_gbfs"],
-    package_data = {
-        "schemas": ["tap_gbfs/schemas/*.json"]
-    },
+    package_data={"schemas": ["tap_gbfs/schemas/*.json"]},
     include_package_data=True,
 )
